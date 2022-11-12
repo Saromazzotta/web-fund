@@ -1,0 +1,21 @@
+h1 {
+    color: cyan;
+    background-color: black;
+}
+#white-text { color: white;}
+
+h2 {
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    font-style: italic;
+    font-weight: normal;
+    font-family: monospace;
+}
+
+h3 {
+    text-align: right;
+    background-color: lightskyblue;
+    text-decoration: underline;
+    font-weight: normal;
+}

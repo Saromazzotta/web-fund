@@ -1,0 +1,1 @@
+// setInterval to change from one large image to the next

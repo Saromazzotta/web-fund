@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-nav">
+        <h1>Profile</h1>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#"></a>Home</li>
+                <li><a href="#"></a><strong>My Profile</strong></li>
+                <li><a href="#"></a>Find Connections</li>
+            </ul>
+        </div>
+        <button>Sign Out</button>
+    </div>
+    <div class="main">
+        <div class="col-1">
+            <div class="name-card">
+                <div class="header">
+                    <img src="images/jane-m.jpg" alt="jane">
+                </div>
+                <div class="cardbody">
+                    <h1 id="name">Jane Doe</h1>
+                    <p><img src="./icons/map-marker.png" alt="map-marker">Seattle</p>
+                    <p>Developer | Engineer | Problem Solver <br>
+                        Master of shadows and the Internet!</p>
+                    <a href="#" onclick="nameChange()"><img src="./icons/gear.png" alt="gear">edit profile</a>
+                </div>
+            </div>
+            <div class="education">
+                <div class="header-2">
+                    <p>Education</p>
+                </div>
+                <div class="education-body">
+                    <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                    <p>Dec 2019 - March 2020</p>
+                    <p1>Triple black belt in Python, MERN, and C#...</p1>
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="requests">
+                <div class="header-2">
+                    <p><a href="#" id="requesttracker">2 </a>Connection Requests</p>
+                </div>
+                <div class="requests-body">
+                    <div class="left">
+                        <p id="todd"><img src="./images/todd-s.jpg" alt="todd-s">Todd E</p>
+                        <p id="phill"><img src="./images/phil-s.jpg" alt="phil-s">Phill K</p>
+                    </div>
+                    <div class="right">
+                        <p>
+                            <img src="./icons/close-circle.png" alt="close-circle" id="close-1" onclick="toddFeature()">
+                            <img src="./icons/accept-circle.png" alt="accept-circle" id="accept-1" onclick="toddFeature()">
+                        </p>
+                        <p>
+                            <img src="./icons/close-circle.png" alt="close-circle" id="close-2" onclick="phillFeature()">
+                            <img src="./icons/accept-circle.png" alt="accept-circle" id="accept-2" onclick="phillFeature()">
+                        </p>    
+                    </div>
+                </div>
+            </div>
+            <div class="connections">
+                <div class="header-2">
+                    <p><a href="#" id="connectiontracker">418 </a>Your Connections</p>
+                </div>
+                <div class="connections-body">
+                    <div class="innerbody">
+                        <p><img src="./images/adrien-s.jpg" alt="adrien-s">Adrien D</p>
+                        <p><img src="./images/anne-s.jpg" alt="anne-s">Anne J</p>
+                        <p><img src="./images/alayne-s.jpg" alt="alayne-s">Alayne T</p>
+                        <p><img src="./images/arry-s.jpg" alt="arry-s">Arry Y</p>
+                    </div>
+                    <div class="innerbottom">
+                        <a href="#">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

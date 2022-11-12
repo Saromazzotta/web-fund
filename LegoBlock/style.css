@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: black;
+    width: auto;
+    height: 940px;
+    margin: 0 auto;
+
+}
+ul{
+    text-align: center;
+    margin:10px ;
+    
+}
+li{
+    display: inline;
+    margin:20px;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    background-color: #343538;
+}
+.header , .main-sec{
+    background-color: #464646
+}
+
+.sec1,.sec2{
+
+    height: 600px;
+    /* width: 600px; */
+    margin-top: 30px;
+}
+.main-sec{
+    display: flex;
+    justify-content: space-evenly;
+    height: 650px;
+    margin-top: 20px;
+}
+.footer{
+    background-color: #F65809;
+    margin-top: 30px;
+}
